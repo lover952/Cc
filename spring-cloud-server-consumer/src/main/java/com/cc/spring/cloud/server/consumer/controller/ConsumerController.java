@@ -13,10 +13,12 @@ public class ConsumerController {
     @Autowired
   private RestTemplate restTemplate;
 
+
+    @RequestMapping("/ordr")
     public String consumerInfo(){
         String s="hello";
-        restTemplate.getForObject("http://EUREKA-SERVERSUPPORT/hello/hands?s=" + s, String.class);
-        return null;
+        String forObject = restTemplate.getForObject("http://EUREKA-SERVERSUPPORT/hello/hands?str=" + s, String.class);
+        return forObject;
     }
 
 }
