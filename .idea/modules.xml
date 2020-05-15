@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eraka-server/spring-cloud-eraka-server.iml" filepath="$PROJECT_DIR$/spring-cloud-eraka-server/spring-cloud-eraka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eraka-server-support/spring-cloud-eraka-server-support.iml" filepath="$PROJECT_DIR$/spring-cloud-eraka-server-support/spring-cloud-eraka-server-support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-server-consumer/spring-cloud-server-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-server-consumer/spring-cloud-server-consumer.iml" />
+    </modules>
+  </component>
+</project>
